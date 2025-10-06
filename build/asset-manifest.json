@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/uiuc-cs409-mp2/static/css/main.57a4c20c.css",
+    "main.js": "/uiuc-cs409-mp2/static/js/main.b5280366.js",
+    "static/js/453.ccb54905.chunk.js": "/uiuc-cs409-mp2/static/js/453.ccb54905.chunk.js",
+    "index.html": "/uiuc-cs409-mp2/index.html",
+    "main.57a4c20c.css.map": "/uiuc-cs409-mp2/static/css/main.57a4c20c.css.map",
+    "main.b5280366.js.map": "/uiuc-cs409-mp2/static/js/main.b5280366.js.map",
+    "453.ccb54905.chunk.js.map": "/uiuc-cs409-mp2/static/js/453.ccb54905.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57a4c20c.css",
+    "static/js/main.b5280366.js"
+  ]
+}

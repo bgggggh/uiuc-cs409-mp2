@@ -1,7 +1,7 @@
 import axios from "axios";
 import { Genre, Movie, PagedResponse } from "../types";
 
-const API_KEY = process.env.REACT_APP_TMDB_API_KEY || "b7566440727f8c2721730ffb799173c7";
+const API_KEY = "b7566440727f8c2721730ffb799173c7";
 const BASE_URL = "https://api.themoviedb.org/3";
 
 export const IMG = {
