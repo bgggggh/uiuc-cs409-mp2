@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    background-color: #0f1115;
+    color: #e6e6e6;
+    font-family: system-ui, sans-serif;
+  }
+  
+  .topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #171923;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  border-bottom: 1px solid #222;
+}
+
+.topbar h1 {
+  flex: 1;
+}
+
+.nav-center {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-center nav a {
+  color: #e6e6e6;
+  text-decoration: none;
+  margin: 0 12px;
+  font-weight: 500;
+}
+
+.nav-center nav a.active {
+  color: #7cc4ff;
+}
+
+  
+  .container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 16px;
+  }
+  
+  .card {
+    background: #171923;
+    border-radius: 10px;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .card img {
+    width: 100%;
+  }
+  
+  .meta {
+    padding: 10px;
+  }
+  
+  .search {
+    padding: 10px;
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid #333;
+    background: #0f1115;
+    color: white;
+  }
+  
+  .chips {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  
+  .chip {
+    background: #232738;
+    border: 1px solid #2b3247;
+    border-radius: 999px;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .chip.active {
+    background: #7cc4ff;
+    color: black;
+  }
+  
